@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Regression">
+    <test name="All Functionalities">
+        <classes>
+            <class name="scripts.Project_02">
+                <methods>
+                    <include name="validateEmailAndPasswordForCars"/>
+                    <include name="validateSocialMediaPage"/>
+                    <include name="validateThatUserCannotLoginWithInvalidCredentials"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
